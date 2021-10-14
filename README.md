@@ -28,7 +28,7 @@ git commit -m "hello-world.txt file has been created" (Since we stageed just hel
 git diff README.md 
 
 4. Assuming that you are currently within a Git repository that includes several commits, write the command (or commands) that will display the changes from the commit with the ID of abc123.
-<your-answer-here>
+git show abc123 
 
 5. Assuming that you are currently within a Git repository that includes multiple commits, write the command (or commands) that will display the IDs and commit messages for the 3 most recent commits.
 <your-answer-here>
