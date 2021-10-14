@@ -17,7 +17,10 @@ B:git status (If we're currently inside of a folder which itself or one of its p
 
 
 2. Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
-<your-answer-here>
+touch hello-world.txt
+git add hello-world.txt
+git commit -m "hello-world.txt file has been created"
+
 
 3. Assuming that you are currently within a Git repository that contains a file named 'README.md', write the command (or commands) that will display any uncommitted changes made to this file.
 <your-answer-here>
