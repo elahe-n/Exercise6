@@ -12,7 +12,9 @@ Use this document as a starting point for the Class 6 exercise. Please note that
 
 ## Questions
 1. Assuming that you aren't sure whether you're currently inside of a Git repository, write the command (or commands) that will give you this information.
-<your-answer-here>
+A:ls -a (If we're currently inside of a Git repository folder, there should be a hidden folder named .git)
+B:git status (If we're currently inside of a folder which itself or one of its parents is git repository by running git commad with any sub commands except help, we will get a related and meaninnful response like "On branch master. nothing to commit, working tree clean". Otherwise, we will face to this response: "fatal: not a git repository (or any of the parent directories): .git")
+
 
 2. Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
 <your-answer-here>
